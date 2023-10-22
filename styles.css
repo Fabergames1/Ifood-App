@@ -1,0 +1,62 @@
+body{
+    background: lightgray;
+}
+.topo{
+    background: red;
+    color: white;
+    padding: 15px;
+    border-radius: 10px;
+}
+
+.produto{
+    background: white;
+    padding: 15px;
+    border-radius: 10px;
+    margin-bottom: 10px;
+    box-shadow: 0 0 10px 0 #bbbbbb;
+    cursor: pointer;
+    border: 5px solid white
+}
+
+h1{
+    margin: 0;
+}
+
+h2{
+    margin:0;
+    font-size: 18px;
+}
+
+h3{
+    font-size: 30px;
+    margin-bottom: 5px;
+}
+
+h4{
+    margin-top: 0px;
+    margin-bottom: 5px;
+    font-size: 25px;
+}
+
+img{
+    width: 130px;
+    border-radius: 5px;
+    float: right;
+}
+
+.button{
+    background: green;
+    text-align: center; 
+    padding: 15px;
+    margin-top: 30px;
+    margin-bottom: 100px;
+    border-radius: 50px;
+    color: white;
+    font-weight: bold;
+    font-size: 18px;
+    cursor: pointer;   
+}
+
+@media (max-width: 600px) {
+    
+}

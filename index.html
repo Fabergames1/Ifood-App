@@ -1,0 +1,81 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Ifood App</title>
+    <link rel="stylesheet" href="styles.css">
+
+</head>
+<body>
+    <div class="topo">
+        <h1>Ifood App</h1>
+        <h2>Monte seu lanche e receba em 30 minutos!</h2>
+    </div>
+
+    <h3>Primeiro, seu prato</h3>
+    <div id="chicken" class="produto" onclick="chooseChicken()" required>
+        <img src="imagens/frango.jpg" alt="">
+        <h4>Frango Ying-Yang</h4>
+        <p>Um pouco de batata, junto com salada</p>
+        <p><strong>R$ 19,90</strong></p>
+    </div>
+
+    <div id="beef" class="produto" onclick= "chooseBeef()"required>
+        <img src="imagens/carne.jpg" alt="">
+        <h4>Carne e salada</h4>
+        <p>Partida ao meio para parecer mais carne</p>
+        <p><strong>R$ 24,90</strong></p>
+    </div>
+
+    <div id="x-tudo" class="produto" onclick="chooseXtudo()" required>
+        <img src="imagens/x-tudo.jpg" alt="">
+        <h4>X-tudo</h4>
+        <p>Lanche com Carne, ovo, presunto mussarela e tomate!</p>
+        <p><strong>R$ 34,90</strong></p>
+    </div>
+
+    <h3>Agora, sua bebida</h3>
+    <div id="coca" class="produto" onclick="chooseCoca()">
+        <img src="imagens/coca.jpg" alt="">
+        <h4>Coca-cola gelada</h4>
+        <p>Normal ou zero. Escolha do cliente!</p>
+        <p><strong>R$ 5,90</strong></p>
+    </div>
+
+    <div id="juice" class="produto" onclick="chooseJuice()">
+        <img src="imagens/suco.jpg" alt="">
+        <h4>Refresco</h4>
+        <p>Suco natural ou Refresco!</p>
+        <p><strong>R$ 5,90</strong></p>
+    </div>
+
+    <div id="pepsi" class="produto" onclick="choosePepsi()">
+        <img src="imagens/pepsi.jpeg" alt="">
+        <h4>Pepsi</h4>
+        <p>Akela pepsi geladinha para jogar com G A M E S!</p>
+        <p><strong>R$ 5,90</strong></p>
+    </div>
+
+    <h3>Por fim, sua sobremesa</h3>
+    <div id="pudding" class="produto" onclick="choosePudding()">
+        <img src="imagens/pudim.jpg" alt="">
+        <h4>Pudim</h4>
+        <p>Apenas um simples e brilhante pudim.</p>
+        <p><strong>R$ 7,90</strong></p>
+    </div>
+    <div id="iceCream" class="produto" onclick="chooseIceCream()">
+        <img src="imagens/sorvete.jpg" alt="">
+        <h4>Sorvete bem gelado</h4>
+        <p>Três bolinhas.</p>
+        <p><strong>R$ 6,90</strong></p>
+    </div>
+
+    <div id="order" class="button" onclick="finalizeOrder()">
+        Concluir Pedido
+    </div>
+
+    <script type="text/javascript" src="scripts.js"></script>
+</body>
+</html>
